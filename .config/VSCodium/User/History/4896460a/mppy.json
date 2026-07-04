@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/home/fin/.config/waybar"
+		},
+		{
+			"path": "/home/fin/.config/hypr"
+		},
+		{
+			"path": "../../../kitty"
+		}
+	],
+	"settings": {}
+}

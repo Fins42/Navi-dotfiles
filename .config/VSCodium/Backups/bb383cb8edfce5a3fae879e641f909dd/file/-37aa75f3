@@ -1,0 +1,94 @@
+file:///home/fin/.config/waybar/config.jsonc {"mtime":1783180883252,"ctime":1780602977211,"size":2447,"etag":"3gao4c1062gt","orphaned":false,"typeId":""}
+{
+    "layer": "top",
+    "width": 1000,
+    "height": 28,
+    "margin-top": 3,
+    "modules-left": [
+        "pulseaudio",
+        "custom/media"
+    ],
+    "modules-center": [
+        "clock",
+        "hyprland/workspaces",
+        "clock#right"
+    ],
+    "modules-right": [
+        "network"
+    ],
+    "hyprland/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "format": "{:%H}"
+    },
+    "clock#right": {
+        "format": "{:%M}"
+    },
+    "hyprland/workspaces": {
+       "disable-scroll": true,
+       "warp-on-scroll": false,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            //monitor 2
+            "8": "",
+            "9": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            //monitor 3
+            "15": "",
+            "16": "",
+            "17": "",
+            "18": "",
+            "19": "",
+            "20": "",
+            "21": ""
+        }
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "headset": "",
+            "default": [
+                "󰖀",
+                "󰕾"
+            ]
+        },
+        "scroll-step": 1,
+        "on-click": "pavucontrol",
+        "ignored-sinks": [
+            "Easy Effects Sink"
+        ]
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+    "custom/media": {
+        "format": "{}",
+        "return-type": "json",
+        "exec": "$HOME/.config/waybar/scripts/mediaplayer.sh",
+        "interval": 1,
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl next",
+        "on-scroll-down": "playerctl previous"
+    }
+}

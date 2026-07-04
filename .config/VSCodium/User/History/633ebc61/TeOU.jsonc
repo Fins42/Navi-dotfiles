@@ -1,0 +1,58 @@
+{
+    "layer": "top",
+    "modules-left": [
+        "pulseaudio",
+        "cava"
+    ],
+    "modules-center": [
+        "clock",
+        "hyprland/workspaces",
+        "clock#right"
+    ],
+    "modules-right": [
+    ],
+    "sway/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "format": "{:%H}"
+    },
+    "clock#right": {
+        "format": "{:%M}"
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": ""
+        }
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "phone-muted": "",
+            "portable": "",
+            "car": "",
+            "default": [
+                "󰖀",
+                "󰕾"
+            ]
+        },
+        "scroll-step": 1,
+        "on-click": "pavucontrol",
+        "ignored-sinks": [
+            "Easy Effects Sink"
+        ]
+    }
+}

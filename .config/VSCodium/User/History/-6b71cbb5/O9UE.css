@@ -1,0 +1,62 @@
+/* stuff stolen from diinki and awsome-wofi repo */
+
+
+window {
+    background-image: url("/home/fin/Pictures/wallpapers/oc_the_blackboard_deffo_not_stolen_from_diinki.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "DejaVu Sans", "Font Awesome 5 Free";
+    margin: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    background-color: rgba(2, 13, 56, 0.6);
+    border-radius: 10px;
+}
+
+#entry:selected {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #f8f8f2;
+    background-color: rgba(2, 18, 79, 0.6);
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #c5c8c6;
+}
+
+#entry {
+    border: none;
+}
+
+#entry:focus {
+    border: none;
+}
+
+#entry:selected {
+    background-color: rgba(2, 18, 79, 0.6);
+    border-radius: 5px;
+    border: none;
+}

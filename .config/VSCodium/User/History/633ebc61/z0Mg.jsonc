@@ -1,0 +1,92 @@
+{
+    "layer": "top",
+    "modules-left": [
+        "pulseaudio",
+        "cava"
+    ],
+    "modules-center": [
+        "clock1",
+        "hyprland/workspaces",
+        "clock2"
+    ],
+    "modules-right": [
+        "clock"
+    ],
+    "sway/window": {
+        "max-length": 50
+    },
+    "clock1": {
+        "format": "{:%H}"
+    },
+    "clock2": {
+        "format": "{:%M}"
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": ""
+        }
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}%",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "phone-muted": "",
+            "portable": "",
+            "car": "",
+            "default": [
+                "󰖀",
+                "󰕾"
+            ]
+        },
+        "scroll-step": 1,
+        "on-click": "pavucontrol",
+        "ignored-sinks": [
+            "Easy Effects Sink"
+        ]
+    },
+    "cava": {
+        // "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
+        "framerate": 30,
+        "autosens": 0,
+        "sensitivity": 100,
+        "bars": 14,
+        "lower_cutoff_freq": 50,
+        "higher_cutoff_freq": 10000,
+        "hide_on_silence": false,
+        // "format_silent": "quiet",
+        "method": "pipewire",
+        "source": "auto",
+        "stereo": true,
+        "reverse": false,
+        "bar_delimiter": 0,
+        "monstercat": false,
+        "waves": false,
+        "noise_reduction": 0.77,
+        "input_delay": 2,
+        "format-icons": [
+            "▁",
+            "▂",
+            "▃",
+            "▄",
+            "▅",
+            "▆",
+            "▇",
+            "█"
+        ],
+        "actions": {
+            "on-click-right": "mode"
+        }
+    }
+}
