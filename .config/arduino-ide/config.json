@@ -1,0 +1,25 @@
+{
+	"windowstate": {
+		"isFullScreen": false,
+		"isMaximized": false,
+		"width": 930,
+		"height": 1007,
+		"x": 1301,
+		"y": 52,
+		"frame": true,
+		"screenLayout": "0:0:1280:720-1280:0:1920:1080",
+		"backgroundColor": "rgb(31, 39, 42)"
+	},
+	"workspaces": [
+		{
+			"x": 1301,
+			"y": 52,
+			"width": 1878,
+			"height": 1007,
+			"isMaximized": false,
+			"isFullScreen": false,
+			"file": "/home/fin/Arduino/test_hdsp_display",
+			"time": 1783103945483
+		}
+	]
+}

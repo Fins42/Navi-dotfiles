@@ -1,0 +1,27 @@
+@import url("/home/fin/.config/waybar/colours/colours.css");
+
+*{
+    font-family: "Iosevka Nerd Font Propo", monospace;
+}
+
+window#waybar {
+    color: @flamingo;
+    background: @base;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: @flamingo;
+}
+
+#waybar {
+    border-radius: 7px;
+    padding-top: 20px;
+}
+
+#waybar .module{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

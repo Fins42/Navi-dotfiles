@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "/home/fin/.config/waybar"
+		},
+		{
+			"path": "/home/fin/.config/hypr"
+		},
+		{
+			"path": "../../../kitty"
+		},
+		{
+			"path": "../../../fastfetch"
+		},
+		{
+			"path": "../../../cava"
+		}
+	],
+	"settings": {}
+}

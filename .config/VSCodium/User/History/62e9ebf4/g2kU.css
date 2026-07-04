@@ -1,0 +1,11 @@
+@import url("/home/fin/.config/waybar/colours/colours.css");
+
+*{
+    font-family: "Iosevka Nerd Font Propo", monospace;
+}
+
+window#waybar {
+    color: @flamingo;
+    background: @base;
+}
+
